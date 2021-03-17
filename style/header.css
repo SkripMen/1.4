@@ -1,0 +1,32 @@
+header {
+    padding: 25px;
+    background: #3a3259;
+}
+
+ul {
+    float: right;
+    display: flex;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.home {
+    font-size: 20px;
+}
+
+header a {
+    color: #00e0d0;
+}
+
+li a {
+    transition: .2s color;
+}
+
+li a:hover {
+    color: #93dfda;
+    border-bottom: 1px solid #00e0d0;
+}
